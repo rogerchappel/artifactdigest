@@ -16,7 +16,8 @@
     "test": "node --test",
     "package:smoke": "npm pack --dry-run",
     "release:check": "npm test && npm run package:smoke",
-    "smoke": "node --test && echo smoke OK"
+    "smoke": "node --test && echo smoke OK",
+    "build": "echo build OK"
   },
   "keywords": [],
   "author": "Roger Chappel",
@@ -28,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/rogerchappel/artifactdigest/issues"
   },
-  "homepage": "https://github.com/rogerchappel/artifactdigest#readme"
+  "homepage": "https://github.com/rogerchappel/artifactdigest#readme",
+  "bin": {
+    "artifactdigest": "./src/cli.js"
+  }
 }
