@@ -10,7 +10,8 @@
   "files": [
     "src",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "SECURITY.md"
   ],
   "scripts": {
     "test": "node --test",
@@ -31,6 +32,6 @@
   },
   "homepage": "https://github.com/rogerchappel/artifactdigest#readme",
   "bin": {
-    "artifactdigest": "./src/cli.js"
+    "artifactdigest": "src/cli.js"
   }
 }
