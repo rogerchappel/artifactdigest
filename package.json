@@ -36,5 +36,8 @@
   "homepage": "https://github.com/rogerchappel/artifactdigest#readme",
   "bin": {
     "artifactdigest": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
