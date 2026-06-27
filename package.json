@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "test": "node --test",
-    "package:smoke": "npm pack --dry-run",
+    "package:smoke": "node scripts/package-smoke.mjs",
     "release:check": "npm test && npm run package:smoke",
     "smoke": "node --test && echo smoke OK",
     "build": "echo build OK"
