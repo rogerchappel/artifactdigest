@@ -23,7 +23,13 @@
     "smoke": "node --test && echo smoke OK",
     "build": "echo build OK"
   },
-  "keywords": [],
+  "keywords": [
+    "agent",
+    "artifact",
+    "digest",
+    "evidence",
+    "cli"
+  ],
   "author": "Roger Chappel",
   "license": "MIT",
   "repository": {
