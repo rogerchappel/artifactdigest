@@ -45,3 +45,24 @@ See [SECURITY.md](SECURITY.md) for vulnerability reporting guidance. Do not incl
 ## License
 
 MIT
+
+## Verification
+
+```sh
+npm test
+npm run check --if-present
+npm run smoke --if-present
+```
+
+## Limitations
+
+This is an early local-first tool. It does not authenticate remote state, approve external actions, or replace human review for high-risk workflow decisions. Pin versions before using it in automation.
+
+## Usage
+
+Start from the checked-out package scripts so examples stay aligned with the current version:
+
+```sh
+npm install
+npm run smoke
+```
